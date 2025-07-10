@@ -9,3 +9,50 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Estilos para la tarjeta principal */
+.card {
+  width: 420px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  text-align: center;
+  padding-bottom: 24px;
+  margin: auto;
+}
+
+/* Imagen superior de la tarjeta */
+.card-img-top {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+ /* dígitos */ 
+.num {
+
+  gap: 12px;
+  margin-top: 24px;
+}
+
+/* Estilos para cada dígito */
+.digito {
+  background: #212529;
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Roboto Mono', monospace;
+  padding: 16px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  min-width: 48px;
+  min-height: 60px;
+ 
+}
+
+
